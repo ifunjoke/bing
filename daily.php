@@ -1,5 +1,5 @@
 <?php
-    /*获取bing每天一张壁纸*
+    /*获取bing每天一张壁纸*/
 
 date_default_timezone_set("PRC");//设置时区为中国
 $json=file_get_contents("http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1");//获取bing每日壁纸json
